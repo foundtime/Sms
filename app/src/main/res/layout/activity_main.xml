@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_input_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="@string/please_input_number"/>
+
+    <EditText
+        android:id="@+id/et_number1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/number"/>
+
+    <TextView
+        android:id="@+id/tv_input_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="@string/please_input_content"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:minLines="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/content"/>
+
+    <Button
+        android:id="@+id/btn_sendSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/sendSms"
+        />
+
+</LinearLayout>

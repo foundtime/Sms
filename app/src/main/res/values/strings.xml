@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMSSender</string>
+    <string name="please_input_number">请输入号码</string>
+    <string name="number">号码</string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="content">内容</string>
+    <string name="sendSms">发送消息</string>
+</resources>
